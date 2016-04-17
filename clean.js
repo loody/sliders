@@ -10,3 +10,7 @@ files.forEach(function(file){
     })
   }
 });
+
+rimraf('index.html', fs, function(){
+  console.log("clean index ...");
+})
