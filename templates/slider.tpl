@@ -6,8 +6,8 @@
 
 		<title>{{title}}</title>
 
-		<meta name="description" content="{{description}}">
-		<meta name="author" content="{{author}}">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
