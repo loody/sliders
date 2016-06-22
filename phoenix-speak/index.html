@@ -396,7 +396,7 @@ end
 ```ruby
 # 所有的复杂逻辑都封装到仓库中
 def muti_destroy
-  if comment_ids = params[:comment_ids].present?
+  if (comment_ids = params[:comment_ids]).present?
     CommentRepo.muti_destroy(comment_ids)
   end
 end
