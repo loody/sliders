@@ -127,6 +127,7 @@ author: 周露
 
 ![](../assets/images/hotfix/preverify.png)
 
+Class ref in pre-verified class resolved to unexpected implementation
 </script></section><section data-markdown><script type="text/template">
 ###  
 
@@ -165,7 +166,7 @@ Q-zone方案突破了此限制，但是损失了性能。
 3. 补丁类与引用类放在同一个dex中
 Tinker等全量合成方案突破了此限制。
 4. 使dvmDexGetResolvedClass返回不为null，直接返回
-QFix的方案，可参考这篇文章QFix探索之路—手Q热补丁轻量级方案
+QFix的方案
 </script></section><section data-markdown><script type="text/template">
 ### Qzone/Nuwa
 

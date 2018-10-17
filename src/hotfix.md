@@ -88,6 +88,7 @@ author: 周露
 
 ![](../assets/images/hotfix/preverify.png)
 
+Class ref in pre-verified class resolved to unexpected implementation
 
 ###  
 
